@@ -1,0 +1,35 @@
+ul.hubbly {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+li.hubblite {
+    display: inline-block;
+    padding: 5px;
+}
+
+li:first-child {
+    padding-left: 0;
+}
+
+li:last-child {
+    padding-right: 0;
+}
+
+li.hubblite.vertical {
+    display: block !important;
+}
+
+li.hubblite.darkgray>a.hubblink {
+    color: darkgray;
+}
+
+li.hubblite.light>a.hubblink {
+    color: rgb(250, 247, 213);
+}
+
+li.hubblite.navyblue>a.hubblink {
+    color: navy;
+}
